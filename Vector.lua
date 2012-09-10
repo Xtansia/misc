@@ -64,6 +64,7 @@ Vector API functions:
   Vector.getMinimum(v1, v2)		-- Gets the minimum components of two vectors
   Vector.getMaximum(v1, v2)		-- Gets the maximum components of two vectors
   Vector.getMidpoint(v1, v2)		-- Gets the midpoint of two vectors
+  Vector.isVector(v)			-- Checks whether v is a vector created by this api
   Vector.new(x, y, z)			-- Creates a new vector object with the component values
 --]]
 
