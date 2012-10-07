@@ -341,7 +341,7 @@ local vector = {
       self.y,
       self.z
     )
-  end
+  end,
   equals = function(self, o)
     if not isVector(self) or not isVector(o) then return false end
     return (
