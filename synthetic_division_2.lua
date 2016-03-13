@@ -22,7 +22,7 @@ local function polynomial_tostring(polynomial)
 	local degree = table.maxn(polynomial)
 	local str = ""
 	for i = degree, 0, -1 do
-		local coeff = polynomial[i]
+		local coeff = polynomial[i] or 0
 		local abs_coeff = math.abs(coeff)
 		if abs_coeff > 0 then
 			if i == degree then
